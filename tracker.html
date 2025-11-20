@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GateMate | Tracker</title>
 
-<script src="Code/script.js"></script>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="Code/styles.css">
-
-<title>
-    GateMate | Tracker
-</title>
-
-<div class="banner" style="background-image: url(/Assets/Images/flighttracker.png)">
-
-    <h1>
-        SeaTac Flight Tracker
-    </h1>
-
-    <h2>
-        Track your flight departures and arrivals.
-    </h2>
-
-   <div class="topnav">
-          <a href="/index.html">Home</a>
-          <a href="/map.html">Map</a>
-          <a href="/tracker.html">Tracker</a>
-    </div>
-
-</div>
+    <link rel="stylesheet" href="Code/styles.css">
+    <script src="Code/script.js" defer></script>
+</head>
 
 <body>
 
-<div class="avionio-widget">
-  <iframe id="avionio-frame" height="650px" frameborder="0"  style='border:0; width: 100%; margin:0; padding:0; ' src='https://www.avionio.com/widget/en/sea/departures?style=2'></iframe>
-  <div style="font-size:12px; width: 100%; text-align: center; ">
-    <a style="text-decoration:none; color:#333;" href='https://www.avionio.com/en/airport/sea/departures' title='SEA Departures' target="_blank">SEA Departures</a>
-    <span style="color: #50a4fd;">♥</span>
-  </div>
-  
-</div>
+    <div class="banner" style="background-image: url(/Assets/Images/flighttracker.png);">
+        <h1>SeaTac Flight Tracker</h1>
+        <h2>Track your flight departures and arrivals.</h2>
+
+        <div class="topnav">
+            <a href="/index.html">Home</a>
+            <a href="/map.html">Map</a>
+            <a href="/tracker.html">Tracker</a>
+        </div>
+    </div>
+
+    <div class="avionio-widget">
+        <iframe 
+            id="avionio-frame"
+            height="650px"
+            frameborder="0"
+            style="border:0; width: 100%; margin:0; padding:0;"
+            src="https://www.avionio.com/widget/en/sea/departures?style=2">
+        </iframe>
+
+        <div style="font-size:12px; width: 100%; text-align: center;">
+            <a 
+                href="https://www.avionio.com/en/airport/sea/departures"
+                target="_blank" 
+                style="text-decoration:none; color:#333;"
+                title="SEA Departures">
+                SEA Departures
+            </a>
+            <span style="color: #50a4fd;">♥</span>
+        </div>
+    </div>
 
 </body>
-
 </html>
