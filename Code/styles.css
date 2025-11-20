@@ -65,6 +65,17 @@ html, body {
     transform: translateY(-2px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
 }
+
+.card {
+    display: block;
+    max-width: 65%;
+    padding: 2.5%;
+    margin: 15px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
 h1, h2, h3, h4, h5, h6 {
     color: rgb(16, 16, 16);
     text-shadow: none;
