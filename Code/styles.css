@@ -76,6 +76,7 @@ html, body {
     color: rgb(0, 0, 0);
     border-radius: 8px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    line-height: 2;
   }
 h1, h2, h3, h4, h5, h6 {
     color: rgb(16, 16, 16);
