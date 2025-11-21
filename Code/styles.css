@@ -41,12 +41,18 @@ html, body {
     text-decoration: underline;
     text-shadow: 2px 2px black;
     margin-left: 1%;
+    margin-bottom: 0.5%;
 }
 .banner {
     background-size: cover;
+    position: relative;
     overflow-y: auto;
     overflow-x: auto;
+    -webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
 }
+
+
 .button {
     display: inline-block;
     padding: 14px 28px;
