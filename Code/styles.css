@@ -35,14 +35,25 @@ html, body {
     margin-bottom: 1%;
     overflow: hidden;
 }
+
 .banner .topnav a {
     float: left;
     color: #f2f2f2;
-    text-decoration: underline;
     text-shadow: 2px 2px black;
     margin-left: 1%;
     margin-bottom: 0.5%;
+    text-decoration: none;
 }
+
+.banner .topnav a:hover {
+    float: left;
+    color: #f2f2f2;
+    text-shadow: 2px 2px black;
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+    text-decoration: underline;
+}
+
 .banner {
     background-size: cover;
     position: relative;
