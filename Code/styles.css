@@ -68,7 +68,7 @@ html, body {
     display: inline-block;
     padding: 14px 28px;
     margin: 15px;
-    background-color: #4FC3F7;
+    background-color: #f79d4f;
     color: white;
     font-size: 18px;
     font-weight: 600;
@@ -78,7 +78,7 @@ html, body {
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 .button:hover {
-    background-color: #29B6F6;
+    background-color: #db8438;
     transform: translateY(-2px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
 }
