@@ -39,7 +39,7 @@ html, body {
 }
 
 .topnav {
-    margin-left: 1%;
+    margin-left: 1rem;
     margin-bottom: 1%;
     overflow: hidden;
 }
@@ -48,7 +48,7 @@ html, body {
     float: left;
     color: #f2f2f2;
     text-shadow: 2px 2px black;
-    margin-left: 1%;
+    margin-left: 1rem;
     margin-bottom: 0.5%;
     text-decoration: none;
     transition: transform 0.2s ease;
