@@ -29,7 +29,15 @@ html, body {
 .banner h1 {
     text-decoration: underline;
     text-underline-position: auto;
+    transition: transform 0.2s ease;
 }
+
+.banner h1:hover {
+    text-decoration: underline;
+    text-underline-position: auto;
+    transform: translateY(-1px);
+}
+
 .topnav {
     margin-left: 1%;
     margin-bottom: 1%;
@@ -43,6 +51,7 @@ html, body {
     margin-left: 1%;
     margin-bottom: 0.5%;
     text-decoration: none;
+    transition: transform 0.2s ease;
 }
 
 .banner .topnav a:hover {
@@ -52,6 +61,7 @@ html, body {
     margin-left: 1%;
     margin-bottom: 0.5%;
     text-decoration: underline;
+    transform: translateY(-1.5px);
 }
 
 .banner {
@@ -94,7 +104,14 @@ html, body {
     border-radius: 8px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     line-height: 2;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
+
+.card:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.559);
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: rgb(16, 16, 16);
     text-shadow: none;
